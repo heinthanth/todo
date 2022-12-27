@@ -20,26 +20,7 @@ function escapeStringForRegex(input: string): string {
 }
 
 function App() {
-  const [todos, setTodos] = useState<TodoItemProp[]>([
-    {
-      id: uuid(),
-      name: 'something',
-      completed: false,
-      deadline: '2022-12-28',
-    },
-    {
-      id: uuid(),
-      name: 'another thing',
-      completed: true,
-      deadline: '2022-12-30',
-    },
-    {
-      id: uuid(),
-      name: 'please finish me',
-      completed: false,
-      deadline: '2022-12-18',
-    },
-  ]);
+  const [todos, setTodos] = useState<TodoItemProp[]>([]);
 
   const [search, setSearch] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');

@@ -1,5 +1,5 @@
 import cx from 'classnames';
-import dayjs from 'dayjs';
+import dayjs from 'dayjs/esm';
 import { Dispatch, SetStateAction, useState } from 'react';
 import Datepicker from 'react-tailwindcss-datepicker';
 import { TodoItemProp } from './todolist';

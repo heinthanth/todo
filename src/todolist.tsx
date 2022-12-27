@@ -1,5 +1,5 @@
 import { ChangeEvent, Dispatch, SetStateAction, useState } from 'react';
-import dayjs from 'dayjs';
+import dayjs from 'dayjs/esm';
 import { BsCheck, BsPencil, BsTrash, BsX } from 'react-icons/bs';
 import cx from 'classnames';
 import Datepicker from 'react-tailwindcss-datepicker';
